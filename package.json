@@ -8,13 +8,14 @@
   "devDependencies": {
     "chai": "^2.0.0",
     "gitdown": "^2.2.1",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
   },
   "keywords": [
     "events"
   ],
   "license": "BSD-3-Clause",
-  "main": "src/sister.js",
+  "main": "lib/sister.js",
   "name": "sister",
   "repository": {
     "type": "git",
