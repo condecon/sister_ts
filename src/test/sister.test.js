@@ -7,7 +7,7 @@ const expect = chai.expect;
 describe("Sister", function () {
     var sister;
     beforeEach(function () {
-        sister = Sister();
+        sister = new Sister();
     });
     describe(".on()", function () {
         it("returns listener object", function () {
