@@ -26,7 +26,7 @@
   },
   "scripts": {
     "generate-readme": "gitdown ./.README/README.md --output-file ./README.md",
-    "test": "mocha src/test",
+    "test": "mocha lib/test",
     "lint": "eslint src/**/*"
   },
   "version": "3.0.2"
