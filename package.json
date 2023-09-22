@@ -4,12 +4,11 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
-  "dependencies": {},
   "description": "Event manager.",
   "devDependencies": {
     "chai": "^2.0.0",
-    "gitdown": "^2.5.2",
-    "mocha": "^2.1.0"
+    "gitdown": "^2.2.1",
+    "mocha": "^10.2.0"
   },
   "keywords": [
     "events"
