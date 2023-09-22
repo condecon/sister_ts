@@ -4,18 +4,21 @@
     "name": "Gajus Kuizinas",
     "url": "http://gajus.com"
   },
-  "dependencies": {},
   "description": "Event manager.",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
     "chai": "^2.0.0",
-    "gitdown": "^2.5.2",
-    "mocha": "^2.1.0"
+    "eslint": "^8.49.0",
+    "gitdown": "^2.2.1",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
   },
   "keywords": [
     "events"
   ],
   "license": "BSD-3-Clause",
-  "main": "src/sister.js",
+  "main": "lib/sister.js",
   "name": "sister",
   "repository": {
     "type": "git",
@@ -23,7 +26,10 @@
   },
   "scripts": {
     "generate-readme": "gitdown ./.README/README.md --output-file ./README.md",
-    "test": "mocha"
+    "build": "tsc",
+    "test": "mocha lib/test",
+    "lint": "eslint src/**/*",
+    "preinstall": "tsc"
   },
   "version": "3.0.2"
 }
