@@ -10,7 +10,7 @@
     "@typescript-eslint/parser": "^6.7.2",
     "chai": "^2.0.0",
     "eslint": "^8.49.0",
-    "gitdown": "^2.2.1",
+    "gitdown": "^3.1.5",
     "mocha": "^10.2.0",
     "typescript": "^5.2.2"
   },
