@@ -1,5 +1,5 @@
 var expect = require('chai').expect,
-    Sister = require('../src/sister.js');
+    Sister = require('../sister.js');
 
 describe('Sister', function () {
     var sister;

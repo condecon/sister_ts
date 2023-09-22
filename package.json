@@ -23,7 +23,7 @@
   },
   "scripts": {
     "generate-readme": "gitdown ./.README/README.md --output-file ./README.md",
-    "test": "mocha"
+    "test": "mocha src/test"
   },
   "version": "3.0.2"
 }
